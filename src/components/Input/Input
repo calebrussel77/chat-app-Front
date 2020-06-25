@@ -1,0 +1,15 @@
+import React from 'react';
+
+const Input = (props) => (
+    <div>
+        <input
+            type={props.type}
+            name={props.name}
+            placeholder={props.placeholder}
+            onChange={props.onChange}
+            className={props.className}
+        />
+    </div>
+);
+
+export default Input;
