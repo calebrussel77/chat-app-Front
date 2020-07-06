@@ -6,7 +6,7 @@ const Layout = (props) => (
 
     <React.Fragment>
         <Header/>
-        <div>
+        <div className='mb-auto'>
             {props.children}
         </div>
         <Footer/>

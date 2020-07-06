@@ -10,10 +10,12 @@ import thunk from "redux-thunk";
 import {BrowserRouter} from "react-router-dom";
 import {compose, createStore, applyMiddleware,combineReducers} from "redux";
 
+import chatReducer from "./store/reducers/chatReducer/chatReducer";
+
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ ||compose;
 
 const rootReducer = combineReducers({
-    // Your reducers
+    chat : chatReducer
 });
 const store = createStore(
     rootReducer,

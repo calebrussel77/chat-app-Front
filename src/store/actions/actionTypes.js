@@ -1,1 +1,2 @@
-export const AUTH_LOGOUT = 'AUTH_LOGOUT';
+export const JOIN_ROOM = 'JOIN_ROOM';
+export const GET_USERS_CONNECTED = 'GET_USERS_CONNECTED';
